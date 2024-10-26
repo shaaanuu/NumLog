@@ -8,7 +8,7 @@ part of 'response_num.dart';
 
 ResponseNum _$ResponseNumFromJson(Map<String, dynamic> json) => ResponseNum(
       text: json['text'] as String?,
-      number: json['number'] as int?,
+      number: (json['number'] as num?)?.toInt(),
       found: json['found'] as bool?,
       type: json['type'] as String?,
     );
