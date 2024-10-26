@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.numbers_api">
+    package="com.shaaanuu.numlog">
    <application
-        android:label="numbers_api"
+        android:label="numlog"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

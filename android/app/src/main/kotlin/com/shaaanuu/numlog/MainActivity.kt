@@ -1,4 +1,4 @@
-package com.example.numbers_api
+package com.shaaanuu.numlog
 
 import io.flutter.embedding.android.FlutterActivity
 
